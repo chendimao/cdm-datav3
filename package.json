@@ -1,0 +1,29 @@
+{
+  "name": "cdm-datav3",
+  "private": false,
+  "version": "0.0.4",
+  "main": "./dist/npm_build/cdm-datav3.umd.js",
+  "module": "./dist/npm_build/cdm-datav3.mjs",
+  "keywords": [
+    "datav3",
+    "datav-vue3",
+    "datav"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "build:dist": "vite build --config ./build/dist.config.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.4",
+    "@vitejs/plugin-vue": "^3.0.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0",
+    "vite-plugin-md": "^0.18.1",
+    "vue-tsc": "^0.38.4"
+  }
+}
